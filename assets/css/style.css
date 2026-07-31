@@ -356,3 +356,113 @@ nav a{
 .about-story p {
   line-height: 1.8;
 }
+/* ---------- Mobile Fix v2 ---------- */
+
+.container{
+    width:95%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 15px;
+}
+
+section{
+    width:100%;
+    padding:60px 0;
+}
+
+.hero{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.hero h1,
+.hero h2{
+    font-size:48px;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:850px;
+    margin:0 auto 30px;
+}
+
+h2{
+    font-size:42px;
+    line-height:1.2;
+    margin-bottom:25px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    width:100%;
+    padding:30px;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:16px 34px;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+footer{
+    text-align:center;
+    padding:50px 20px;
+}
+
+@media (max-width:768px){
+
+header .container{
+    display:block;
+    text-align:center;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+    margin-top:20px;
+}
+
+.hero h1,
+.hero h2{
+    font-size:34px;
+}
+
+h2{
+    font-size:30px;
+}
+
+.hero p,
+p{
+    font-size:17px;
+}
+
+.card{
+    padding:22px;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    margin:12px 0;
+}
+
+}
