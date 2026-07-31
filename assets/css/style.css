@@ -242,3 +242,58 @@ nav a{
   color: #666;
   line-height: 1.6;
 }
+/* ==========================================
+   Echoes Global Media Network
+========================================== */
+
+.media-network {
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #0b1f3a, #123d6b);
+  color: #ffffff;
+}
+
+.media-network h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.media-intro {
+  max-width: 850px;
+  margin: 0 auto 60px;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 28px;
+}
+
+.media-card {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 18px;
+  padding: 28px;
+  backdrop-filter: blur(8px);
+  transition: all .3s ease;
+}
+
+.media-card:hover {
+  transform: translateY(-8px);
+  background: rgba(255,255,255,0.14);
+}
+
+.media-card h3 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+.media-card p {
+  margin: 0;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.85);
+}
