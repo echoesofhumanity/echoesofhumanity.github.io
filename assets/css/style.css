@@ -162,3 +162,33 @@ nav a{
 .card p {
     color: #555;
 }
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 25px;
+}
+
+.container h2 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.container p {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #0066cc;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.container a:hover {
+    background: #004c99;
+}
