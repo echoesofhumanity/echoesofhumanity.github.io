@@ -124,3 +124,18 @@ nav a{
 }
 
 }
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    background: #ffffff;
+    color: #0066cc;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e6e6e6;
+}
