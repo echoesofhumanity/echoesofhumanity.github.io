@@ -348,3 +348,17 @@ font-weight:700;
 .hero .btn:hover{
 background:#eef4ff;
 }
+.hero h1,
+.hero h2,
+.hero p,
+.hero p strong{
+    color:#ffffff !important;
+}
+
+.hero p{
+    opacity:1 !important;
+}
+
+.hero *{
+    text-shadow:0 1px 2px rgba(0,0,0,.25);
+}
