@@ -327,3 +327,24 @@ hr{
 .hidden{
     display:none;
 }
+.hero h1{
+color:#ffffff;
+}
+
+.hero h2{
+color:#ffffff;
+}
+
+.hero p{
+color:rgba(255,255,255,0.92);
+}
+
+.hero .btn{
+background:#ffffff;
+color:#0d4fb3;
+font-weight:700;
+}
+
+.hero .btn:hover{
+background:#eef4ff;
+}
