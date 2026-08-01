@@ -378,3 +378,10 @@ background:#eef4ff;
 .hero .container > p{
     color:#ffffff !important;
 }
+/* ---------- Site Logo ---------- */
+
+.site-logo{
+    height:70px;
+    width:auto;
+    display:block;
+}
