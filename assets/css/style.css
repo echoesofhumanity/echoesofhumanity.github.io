@@ -411,3 +411,33 @@ background:#eef4ff;
 .hero .btn{
     margin:10px;
 }
+/* ===== Mobile Menu ===== */
+
+.menu-toggle{
+    display:none;
+    background:none;
+    border:none;
+    color:#ffffff;
+    font-size:34px;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+    display:block;
+    margin:15px auto;
+}
+
+nav{
+    display:none;
+}
+
+nav.active{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    margin-top:20px;
+}
+
+}
