@@ -69,14 +69,12 @@ nav a:hover{
     text-align:center;
     padding:110px 20px;
 }
-
 .hero h1{
     font-size:4rem;
     font-weight:800;
     letter-spacing:-1px;
     margin-bottom:20px;
     color:#ffffff;
-}
 }
 
 .hero h2{
@@ -87,7 +85,6 @@ nav a:hover{
     color:#ffffff;
    text-shadow: 0 2px 4px rgba(0,0,0,.4);
 }
-}
 
 .hero p{
     max-width:700px;
@@ -96,7 +93,7 @@ nav a:hover{
     line-height:1.8;
     color:#ffffff;
 }
-}
+
 .btn{
     display:inline-block;
     margin:10px;
@@ -233,12 +230,10 @@ nav a{
     font-size:2rem;
     line-height:1.2;
     }
-    }
 
     .hero h2{
     font-size:1.2rem;
     line-height:1.5;
-    }
     }
 
     section h2{
@@ -255,7 +250,6 @@ section p{
     font-size:16px;
     line-height:1.8;
 }
-    }
 
     .btn{
         display:block;
@@ -263,7 +257,6 @@ section p{
         margin:12px 0;
         text-align:center;
     }
-}
 
 .hero h1,
 .hero h2,
