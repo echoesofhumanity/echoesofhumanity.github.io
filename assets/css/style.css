@@ -62,12 +62,27 @@ header .container{
     align-items:center;
     gap:16px;
     padding:14px 0;
+}
    .header-top{
     display:flex;
     align-items:center;
     gap:16px;
    }
+   .language-switcher{
+    display:flex;
+    gap:8px;
 }
+
+.language-switcher button{
+    background:transparent;
+    border:1px solid rgba(255,255,255,.4);
+    color:#fff;
+    padding:4px 10px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:.9rem;
+}
+
 
 header h1{
     font-size:26px;
