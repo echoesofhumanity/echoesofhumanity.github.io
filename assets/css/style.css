@@ -95,7 +95,7 @@ nav a:hover{
     font-size:4rem;
     font-weight:800;
     letter-spacing:-1px;
-    margin-bottom:20px;
+    margin-bottom:28px;
     color:#ffffff;
    text-shadow:0 4px 18px rgba(0,0,0,.25);
 
@@ -103,7 +103,7 @@ nav a:hover{
 
 .hero h2{
     font-size:2rem;
-    font-weight:400;
+    font-weight:500;
     line-height:1.4;
     margin-bottom:30px;
     color:#ffffff;
@@ -116,12 +116,13 @@ nav a:hover{
     font-size:1.2rem;
     line-height:1.8;
     color:#ffffff;
+   text-shadow:0 2px 12px rgba(0,0,0,.18);
 }
 
 .btn{
     display:inline-block;
     margin:10px;
-    padding:15px 32px;
+    padding:16px 36px;
     background:var(--color-surface);
     color:var(--color-primary);
     text-decoration:none;
