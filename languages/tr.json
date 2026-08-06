@@ -40,8 +40,33 @@
   "home.vision.card5.description": "Kriz anlarında hızlı insani yardım sağlıyoruz.",
 
   "home.vision.card6.title": "🤝 Stratejik Ortaklar",
-  "home.vision.card6.description": "Küresel etkiyi büyütmek için kuruluşlarla birlikte çalışıyoruz."
+  "home.vision.card6.description": "Küresel etkiyi büyütmek için kuruluşlarla birlikte çalışıyoruz.",
+    "vision.hero.title": "Vizyonumuz",
+  "vision.hero.subtitle": "İnsanlığın Birlikte Geliştiği Bir Gelecek İnşa Ediyoruz",
+  "vision.hero.description": "Vizyonumuz; her insanın onur içinde yaşadığı, her çocuğun güvenle büyüdüğü, her topluluğun fırsatlarla güçlendiği ve insanlığın sınırların, inançların ve farklılıkların ötesinde birleştiği bir dünya oluşturmaktır.",
+
+  "vision.about.title": "Vizyonumuz",
+  "vision.about.p1": "Echoes of Humanity, merhametin evrensel bir dil hâline geldiği ve iş birliğinin ayrışmanın yerini aldığı bir gelecek hayal eder.",
+  "vision.about.p2": "Kalıcı barışın, adaletin ve sürdürülebilir kalkınmanın ancak insanlığın ortak sorumluluk bilinciyle birlikte hareket etmesiyle mümkün olduğuna inanıyoruz.",
+
+  "vision.pillars.title": "Geleceğin Beş Temel Sütunu",
+
+  "vision.pillars.card1.title": "🤝 İnsan Onuru",
+  "vision.pillars.card1.description": "Her insanın değerini ve temel haklarını korumak.",
+
+  "vision.pillars.card2.title": "📚 Eğitim",
+  "vision.pillars.card2.description": "Herkes için yaşam boyu öğrenme fırsatları sunmak.",
+
+  "vision.pillars.card3.title": "🌍 Küresel Birlik",
+  "vision.pillars.card3.description": "Kültürleri anlayış ve iş birliğiyle birleştirmek.",
+
+  "vision.pillars.card4.title": "💡 Yenilik",
+  "vision.pillars.card4.description": "İnsani çözümler için teknoloji ve yaratıcılığı kullanmak.",
+
+  "vision.pillars.card5.title": "🌱 Sürdürülebilirlik",
+  "vision.pillars.card5.description": "İnsanları ve gezegenimizi koruyan bir gelecek oluşturmak."
 }
+
 
 
 
