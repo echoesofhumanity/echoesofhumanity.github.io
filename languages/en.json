@@ -20,7 +20,28 @@
   "home.about.title": "Who We Are",
   "home.about.p1": "Echoes of Humanity is a global humanitarian movement built upon the belief that every human life has equal value and that compassion, dignity, and solidarity can transform our world.",
   "home.about.p2": "We unite individuals, communities, organizations, and technology to create sustainable solutions for today's challenges while inspiring hope for future generations.",
-  "home.about.p3": "Our mission extends beyond responding to today's crises. We aim to build a future where humanity works together, shares responsibility, and leaves no one behind."
+  "home.about.p3": "Our mission extends beyond responding to today's crises. We aim to build a future where humanity works together, shares responsibility, and leaves no one behind.",
+    "home.vision.title": "Our Global Vision",
+  "home.vision.description": "Together, we are building a future where every child is protected, every voice is heard, every community is empowered, and every act of compassion creates lasting change across the world.",
+
+  "home.vision.card1.title": "🌍 Countries Connected",
+  "home.vision.card1.description": "Building a worldwide humanitarian network.",
+
+  "home.vision.card2.title": "🤝 Active Volunteers",
+  "home.vision.card2.description": "People creating change through compassion and action.",
+
+  "home.vision.card3.title": "📦 Humanitarian Projects",
+  "home.vision.card3.description": "Delivering sustainable solutions to communities in need.",
+
+  "home.vision.card4.title": "🎓 Learning Participants",
+  "home.vision.card4.description": "Empowering people through education and knowledge.",
+
+  "home.vision.card5.title": "🚨 Emergency Responses",
+  "home.vision.card5.description": "Providing rapid humanitarian assistance during crises.",
+
+  "home.vision.card6.title": "🤝 Strategic Partners",
+  "home.vision.card6.description": "Working together with organizations to maximize global impact."
 }
+
 
 
