@@ -17,19 +17,6 @@ async function loadLanguage(lang) {
 document.addEventListener("DOMContentLoaded", () => {
     const savedLanguage = localStorage.getItem("language") || "en";
     loadLanguage(savedLanguage);
-    const languageButton = document.getElementById("language-button");
-const languageMenu = document.getElementById("language-menu");
-
-if (languageButton && languageMenu) {
-    languageButton.addEventListener("click", () => {
-        languageMenu.classList.toggle("show");
     });
 
-    document.addEventListener("click", (e) => {
-        if (!languageButton.contains(e.target) &&
-            !languageMenu.contains(e.target)) {
-            languageMenu.classList.remove("show");
-        }
-    });
-}
-});
+    
