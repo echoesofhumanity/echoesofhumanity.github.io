@@ -16,7 +16,12 @@
   "hero.title": "Tek Dünya.<br>Tek Ortak İnsanlık.<br>Umut Oluşturmak İçin Milyonlarca Fırsat.",
   "hero.description": "Echoes of Humanity, insanları, merhameti, bilgiyi ve teknolojiyi bir araya getirerek dünyanın dört bir yanındaki topluluklar için kalıcı ve olumlu etki oluşturmayı amaçlayan küresel bir insani harekettir.",
   "hero.join": "Harekete Katıl",
-  "hero.explore": "Misyonumuzu Keşfet"
+  "hero.explore": "Misyonumuzu Keşfet",
+    "home.about.title": "Biz Kimiz",
+  "home.about.p1": "Echoes of Humanity, her insanın eşit değere sahip olduğu ve merhamet, insan onuru ile dayanışmanın dünyayı değiştirebileceği inancıyla kurulmuş küresel bir insani harekettir.",
+  "home.about.p2": "Bireyleri, toplulukları, kuruluşları ve teknolojiyi bir araya getirerek bugünün sorunlarına kalıcı çözümler üretirken gelecek nesiller için umut oluşturmayı hedefliyoruz.",
+  "home.about.p3": "Misyonumuz yalnızca bugünün krizlerine yanıt vermek değildir. İnsanlığın birlikte hareket ettiği, sorumluluğu paylaştığı ve hiç kimsenin geride bırakılmadığı bir gelecek inşa etmektir."
 }
+
 
   
