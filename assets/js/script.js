@@ -31,4 +31,5 @@ if (languageButton && languageMenu) {
             languageMenu.classList.remove("show");
         }
     });
-
+}
+});
