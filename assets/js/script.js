@@ -22,14 +22,13 @@ const languageMenu = document.getElementById("language-menu");
 
 if (languageButton && languageMenu) {
     languageButton.addEventListener("click", () => {
-        languageMenu.style.display =
-            languageMenu.style.display === "block" ? "none" : "block";
+        languageMenu.classList.toggle("show");
     });
 
     document.addEventListener("click", (e) => {
         if (!languageButton.contains(e.target) &&
             !languageMenu.contains(e.target)) {
-            languageMenu.style.display = "none";
+            languageMenu.classList.remove("show");
         }
     });
 
