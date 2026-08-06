@@ -20,8 +20,29 @@
     "home.about.title": "Biz Kimiz",
   "home.about.p1": "Echoes of Humanity, her insanın eşit değere sahip olduğu ve merhamet, insan onuru ile dayanışmanın dünyayı değiştirebileceği inancıyla kurulmuş küresel bir insani harekettir.",
   "home.about.p2": "Bireyleri, toplulukları, kuruluşları ve teknolojiyi bir araya getirerek bugünün sorunlarına kalıcı çözümler üretirken gelecek nesiller için umut oluşturmayı hedefliyoruz.",
-  "home.about.p3": "Misyonumuz yalnızca bugünün krizlerine yanıt vermek değildir. İnsanlığın birlikte hareket ettiği, sorumluluğu paylaştığı ve hiç kimsenin geride bırakılmadığı bir gelecek inşa etmektir."
+  "home.about.p3": "Misyonumuz yalnızca bugünün krizlerine yanıt vermek değildir. İnsanlığın birlikte hareket ettiği, sorumluluğu paylaştığı ve hiç kimsenin geride bırakılmadığı bir gelecek inşa etmektir.",
+    "home.vision.title": "Küresel Vizyonumuz",
+  "home.vision.description": "Birlikte, her çocuğun korunduğu, her sesin duyulduğu, her topluluğun güçlendirildiği ve her iyilik hareketinin dünyada kalıcı bir değişim oluşturduğu bir gelecek inşa ediyoruz.",
+
+  "home.vision.card1.title": "🌍 Bağlantı Kurulan Ülkeler",
+  "home.vision.card1.description": "Dünya çapında insani yardım ağı oluşturuyoruz.",
+
+  "home.vision.card2.title": "🤝 Aktif Gönüllüler",
+  "home.vision.card2.description": "Merhamet ve eylemle değişim oluşturan insanlar.",
+
+  "home.vision.card3.title": "📦 İnsani Yardım Projeleri",
+  "home.vision.card3.description": "İhtiyaç sahibi topluluklara sürdürülebilir çözümler ulaştırıyoruz.",
+
+  "home.vision.card4.title": "🎓 Eğitim Katılımcıları",
+  "home.vision.card4.description": "Eğitim ve bilgiyle insanları güçlendiriyoruz.",
+
+  "home.vision.card5.title": "🚨 Acil Durum Müdahaleleri",
+  "home.vision.card5.description": "Kriz anlarında hızlı insani yardım sağlıyoruz.",
+
+  "home.vision.card6.title": "🤝 Stratejik Ortaklar",
+  "home.vision.card6.description": "Küresel etkiyi büyütmek için kuruluşlarla birlikte çalışıyoruz."
 }
+
 
 
   
