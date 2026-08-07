@@ -119,3 +119,56 @@ transform:translateY(-120px);
     color:rgba(255,255,255,.90);
     text-wrap:pretty;
 }
+/* =======================================================
+   ECHOES ORB
+======================================================= */
+
+.hero-orb{
+
+position:absolute;
+
+top:50%;
+
+left:50%;
+
+width:520px;
+
+height:520px;
+
+transform:translate(-50%,-50%);
+
+border-radius:50%;
+
+background:
+radial-gradient(circle,
+rgba(90,170,255,.22) 0%,
+rgba(90,170,255,.10) 35%,
+transparent 70%);
+
+filter:blur(35px);
+
+opacity:.9;
+
+pointer-events:none;
+
+z-index:0;
+
+animation:echoesOrb 18s ease-in-out infinite;
+
+}
+
+@keyframes echoesOrb{
+
+0%{
+transform:translate(-50%,-50%) scale(1);
+}
+
+50%{
+transform:translate(-50%,-50%) scale(1.08);
+}
+
+100%{
+transform:translate(-50%,-50%) scale(1);
+}
+
+}
