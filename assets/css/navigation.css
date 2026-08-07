@@ -30,3 +30,10 @@ header h1{
     margin:0;
     line-height:1.1;
 }
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+    padding:10px 0 20px;
+}
