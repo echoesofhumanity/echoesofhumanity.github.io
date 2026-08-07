@@ -666,3 +666,45 @@ transform:translate(3%,-2%) scale(1.1);
 }
 
 }
+/* Scroll Indicator */
+
+.scroll-indicator{
+    margin-top:60px;
+    display:flex;
+    justify-content:center;
+}
+
+.scroll-indicator span{
+    width:28px;
+    height:48px;
+    border:2px solid rgba(255,255,255,.55);
+    border-radius:20px;
+    position:relative;
+}
+
+.scroll-indicator span::before{
+    content:"";
+    position:absolute;
+    left:50%;
+    top:8px;
+    width:6px;
+    height:6px;
+    background:#ffffff;
+    border-radius:50%;
+    transform:translateX(-50%);
+    animation:scrollDown 2s infinite;
+}
+
+@keyframes scrollDown{
+    0%{
+        opacity:0;
+        transform:translate(-50%,0);
+    }
+    30%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+        transform:translate(-50%,18px);
+    }
+}
