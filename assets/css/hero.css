@@ -140,10 +140,12 @@ transform:translate(-50%,-50%);
 border-radius:50%;
 
 background:
-radial-gradient(circle,
-rgba(90,170,255,.22) 0%,
-rgba(90,170,255,.10) 35%,
-transparent 70%);
+radial-gradient(circle at center,
+rgba(255,255,255,.30) 0%,
+rgba(170,220,255,.22) 18%,
+rgba(90,170,255,.16) 38%,
+rgba(40,120,255,.10) 58%,
+transparent 78%);
 
 filter:blur(35px);
 
