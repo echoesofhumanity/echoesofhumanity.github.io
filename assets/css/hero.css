@@ -28,3 +28,18 @@ color:#fff;
 text-align:center;
 
 }
+/* =======================================================
+   HERO CONTENT
+======================================================= */
+
+.hero-content{
+
+position:relative;
+
+z-index:10;
+
+max-width:900px;
+
+margin:auto;
+
+}
