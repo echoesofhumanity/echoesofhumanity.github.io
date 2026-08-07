@@ -77,3 +77,26 @@ opacity:.75;
 animation:heroGlow 14s ease-in-out infinite;
 
 }
+.hero::after{
+content:"";
+position:absolute;
+inset:-25%;
+background:
+radial-gradient(circle,rgba(255,255,255,.05) 1px,transparent 2px);
+background-size:120px 120px;
+opacity:.45;
+animation:heroFloat 40s linear infinite;
+pointer-events:none;
+}
+
+@keyframes heroFloat{
+
+from{
+transform:translateY(0);
+}
+
+to{
+transform:translateY(-120px);
+}
+
+}
