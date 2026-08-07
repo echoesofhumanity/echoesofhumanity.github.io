@@ -103,3 +103,11 @@ transform:translateY(-120px);
 }
 
 }
+.hero h1{
+    font-size:clamp(3.4rem,8vw,6.5rem);
+    font-weight:900;
+    line-height:.92;
+    letter-spacing:-3px;
+    margin:20px 0 28px;
+    text-wrap:balance;
+}
