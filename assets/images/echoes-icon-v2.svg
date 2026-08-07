@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 512 512">
+
+<defs>
+
+<linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#F4D06F"/>
+<stop offset="50%" stop-color="#C9A227"/>
+<stop offset="100%" stop-color="#9C7A12"/>
+</linearGradient>
+
+</defs>
+
+<!-- Head -->
+
+<circle
+cx="256"
+cy="160"
+r="16"
+fill="url(#gold)"/>
+
+<!-- Body -->
+
+<path
+d="
+M256 180
+L256 330
+"
+stroke="url(#gold)"
+stroke-width="14"
+stroke-linecap="round"/>
+
+<!-- Left Arm -->
+
+<path
+d="
+M256 205
+Q205 220 175 275
+"
+fill="none"
+stroke="url(#gold)"
+stroke-width="14"
+stroke-linecap="round"/>
+
+<!-- Right Arm -->
+
+<path
+d="
+M256 205
+Q307 220 337 275
+"
+fill="none"
+stroke="url(#gold)"
+stroke-width="14"
+stroke-linecap="round"/>
+
+<!-- Left Leg -->
+
+<path
+d="
+M256 330
+Q236 365 215 405
+"
+fill="none"
+stroke="url(#gold)"
+stroke-width="14"
+stroke-linecap="round"/>
+
+<!-- Right Leg -->
+
+<path
+d="
+M256 330
+Q276 365 297 405
+"
+fill="none"
+stroke="url(#gold)"
+stroke-width="14"
+stroke-linecap="round"/>
+
+</svg>
+<!-- Echo Rings -->
+
+<g fill="none"
+   stroke="#4FA3FF"
+   stroke-linecap="round">
+
+  <path
+    d="M92 256 A164 164 0 0 1 420 256"
+    stroke-width="7"
+    opacity=".95"/>
+
+  <path
+    d="M126 256 A130 130 0 0 1 386 256"
+    stroke-width="6"
+    opacity=".75"/>
+
+  <path
+    d="M162 256 A94 94 0 0 1 350 256"
+    stroke-width="5"
+    opacity=".55"/>
+
+</g>
+<!-- Hope Light -->
+
+<path
+d="
+M256 74
+L261 88
+L275 93
+L261 98
+L256 112
+L251 98
+L237 93
+L251 88 Z"
+fill="#D8B44A"/>
+<!-- Inner Echo -->
+
+<circle
+cx="256"
+cy="256"
+r="58"
+fill="none"
+stroke="#7EC3FF"
+stroke-width="3"
+opacity=".28"/>
