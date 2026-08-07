@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7D56A"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A97C1F"/>
+    </linearGradient>
+
+    <linearGradient id="blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#74B9FF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Echo Rings -->
+
+  <path d="M110 256
+           A146 146 0 0 1 402 256"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="6"
+        stroke-linecap="round"
+        opacity=".95"/>
+
+  <path d="M145 256
+           A111 111 0 0 1 367 256"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="5"
+        opacity=".75"/>
+
+  <path d="M178 256
+           A78 78 0 0 1 334 256"
+        fill="none"
+        stroke="url(#blue)"
+        stroke-width="4"
+        opacity=".55"/>
+
+  <!-- Star -->
+
+  <g filter="url(#glow)">
+    <path
+      d="M256 54
+         L262 72
+         L280 78
+         L262 84
+         L256 102
+         L250 84
+         L232 78
+         L250 72 Z"
+      fill="url(#gold)"/>
+  </g>
+
+  <!-- Head -->
+
+  <circle
+      cx="256"
+      cy="150"
+      r="18"
+      fill="url(#gold)"/>
+
+  <!-- Arms -->
+
+  <path
+      d="
+      M256 172
+      C218 175 190 205 180 250
+      C196 235 220 220 238 210
+
+      M256 172
+      C294 175 322 205 332 250
+      C316 235 292 220 274 210"
+      fill="none"
+      stroke="url(#gold)"
+      stroke-width="16"
+      stroke-linecap="round"/>
+
+  <!-- Body -->
+
+  <path
+      d="
+      M256 184
+      C255 240 252 300 238 360
+      C248 376 264 376 274 360
+      C260 300 257 240 256 184"
+      fill="url(#gold)"/>
+
+</svg>
