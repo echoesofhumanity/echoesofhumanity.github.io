@@ -1,1 +1,30 @@
 /* Echoes of Humanity - Hero v2.0 */
+.hero{
+
+position:relative;
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+overflow:hidden;
+
+padding:140px 24px 100px;
+
+background:
+linear-gradient(
+135deg,
+#071426 0%,
+#0B2D55 55%,
+#1B5FBF 100%
+);
+
+color:#fff;
+
+text-align:center;
+
+}
