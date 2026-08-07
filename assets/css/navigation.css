@@ -94,3 +94,14 @@ nav a:hover{
     background:rgba(255,255,255,.16);
     transform:scale(1.05);
 }
+/* ==========================
+   MOBILE NAVIGATION
+========================== */
+
+nav{
+    transition:all .35s ease;
+}
+
+nav.active{
+    display:flex;
+}
