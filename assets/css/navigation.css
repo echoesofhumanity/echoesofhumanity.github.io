@@ -111,12 +111,36 @@ nav.active{
 
 @media (max-width: 768px){
 
-nav{
-    display:none;
-    flex-direction:column;
-    width:100%;
-    padding:20px 0;
-}
+    header{
+        padding:8px 0;
+    }
+
+    .header-top{
+        padding:8px 0;
+        gap:10px;
+    }
+
+    header h1{
+        font-size:1.35rem;
+        line-height:1.1;
+    }
+
+    .language-switcher{
+        gap:6px;
+    }
+
+    .language-switcher button{
+        padding:6px 10px;
+        font-size:.8rem;
+    }
+
+    nav{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        padding:20px 0;
+       }
+
 
 nav.active{
     display:flex;
