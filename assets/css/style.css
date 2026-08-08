@@ -115,42 +115,7 @@ nav a{
 nav a:hover{
     color:#4fc3f7;
 }
-.hero{
-    background:linear-gradient(135deg,#0b1f3a 0%, #0d47a1 55%, #42a5f5 100%);
-    color:#ffffff;
-    text-align:center;
-    padding:110px 20px;
-    position: relative;
 }
-
-.hero h1{
-    font-size:4rem;
-    font-weight:800;
-    letter-spacing:-1px;
-    margin-bottom:28px;
-    color:#ffffff;
-   text-shadow:0 4px 18px rgba(0,0,0,.25);
-
-}
-
-.hero h2{
-    font-size:2rem;
-    font-weight:500;
-    line-height:1.4;
-    margin-bottom:30px;
-    color:#ffffff;
-   text-shadow: 0 2px 4px rgba(0,0,0,.4);
-}
-
-.hero p{
-    max-width:700px;
-    margin:30px auto;
-    font-size:1.2rem;
-    line-height:1.8;
-    color:#ffffff;
-   text-shadow:0 2px 12px rgba(0,0,0,.18);
-}
-
 .btn{
     display:inline-block;
     margin:10px;
