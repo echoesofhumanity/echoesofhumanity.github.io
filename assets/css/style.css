@@ -723,3 +723,240 @@ max-width:900px;
 }
 
 }
+/* =========================================================
+   HERO WORLD — ANIMATED GLOBAL BACKGROUND
+   ========================================================= */
+
+.hero{
+    position:relative;
+    overflow:hidden;
+    isolation:isolate;
+}
+
+.hero-world{
+    position:absolute;
+    inset:0;
+    z-index:0;
+    pointer-events:none;
+    overflow:hidden;
+}
+
+.hero-content{
+    position:relative;
+    z-index:3;
+}
+
+.hero-orb{
+    position:absolute;
+    width:520px;
+    height:520px;
+    left:50%;
+    top:42%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    background:radial-gradient(
+        circle,
+        rgba(80,180,255,.18) 0%,
+        rgba(40,120,220,.10) 35%,
+        rgba(0,0,0,0) 70%
+    );
+    filter:blur(12px);
+    animation:heroOrbPulse 6s ease-in-out infinite;
+}
+
+.world-glow{
+    position:absolute;
+    width:760px;
+    height:420px;
+    left:50%;
+    top:42%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    background:radial-gradient(
+        ellipse,
+        rgba(74,170,255,.16) 0%,
+        rgba(40,120,220,.08) 35%,
+        transparent 72%
+    );
+    filter:blur(25px);
+    animation:worldGlow 8s ease-in-out infinite;
+}
+
+.world-map{
+    position:absolute;
+    width:min(900px,115%);
+    left:50%;
+    top:42%;
+    transform:translate(-50%,-50%);
+    opacity:.12;
+    filter:
+        brightness(1.8)
+        contrast(1.15)
+        drop-shadow(0 0 18px rgba(90,190,255,.45));
+    animation:worldMapFloat 12s ease-in-out infinite;
+}
+
+.world-map img{
+    display:block;
+    width:100%;
+    height:auto;
+    opacity:.9;
+    mix-blend-mode:screen;
+}
+
+/* LIGHT PARTICLES */
+
+.world-particle{
+    position:absolute;
+    width:6px;
+    height:6px;
+    border-radius:50%;
+    background:#ffffff;
+    box-shadow:
+        0 0 6px #ffffff,
+        0 0 14px rgba(100,200,255,.9),
+        0 0 28px rgba(70,160,255,.55);
+    opacity:0;
+    animation:worldParticle 5s ease-in-out infinite;
+}
+
+.particle-1{
+    left:20%;
+    top:34%;
+    animation-delay:0s;
+}
+
+.particle-2{
+    left:32%;
+    top:54%;
+    animation-delay:1.1s;
+}
+
+.particle-3{
+    left:47%;
+    top:28%;
+    animation-delay:2.2s;
+}
+
+.particle-4{
+    left:63%;
+    top:48%;
+    animation-delay:3.1s;
+}
+
+.particle-5{
+    left:76%;
+    top:35%;
+    animation-delay:1.8s;
+}
+
+.particle-6{
+    left:69%;
+    top:66%;
+    animation-delay:4s;
+}
+
+/* =========================================================
+   ANIMATIONS
+   ========================================================= */
+
+@keyframes worldParticle{
+    0%{
+        opacity:0;
+        transform:scale(.5) translateY(8px);
+    }
+
+    30%{
+        opacity:.8;
+    }
+
+    55%{
+        opacity:1;
+        transform:scale(1.15) translateY(0);
+    }
+
+    80%{
+        opacity:.45;
+    }
+
+    100%{
+        opacity:0;
+        transform:scale(.6) translateY(-10px);
+    }
+}
+
+@keyframes worldMapFloat{
+    0%,100%{
+        transform:translate(-50%,-50%) scale(1);
+    }
+
+    50%{
+        transform:translate(-50%,-50%) scale(1.025);
+    }
+}
+
+@keyframes worldGlow{
+    0%,100%{
+        opacity:.55;
+        transform:translate(-50%,-50%) scale(.95);
+    }
+
+    50%{
+        opacity:1;
+        transform:translate(-50%,-50%) scale(1.08);
+    }
+}
+
+@keyframes heroOrbPulse{
+    0%,100%{
+        opacity:.65;
+        transform:translate(-50%,-50%) scale(.95);
+    }
+
+    50%{
+        opacity:1;
+        transform:translate(-50%,-50%) scale(1.08);
+    }
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width:768px){
+
+    .world-map{
+        width:150%;
+        top:38%;
+        opacity:.10;
+    }
+
+    .world-glow{
+        width:130%;
+        height:360px;
+        top:38%;
+    }
+
+    .hero-orb{
+        width:420px;
+        height:420px;
+        top:38%;
+    }
+
+    .world-particle{
+        width:5px;
+        height:5px;
+    }
+}
+
+/* REDUCE MOTION ACCESSIBILITY */
+
+@media (prefers-reduced-motion:reduce){
+
+    .world-map,
+    .world-glow,
+    .hero-orb,
+    .world-particle{
+        animation:none;
+    }
+}
