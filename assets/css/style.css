@@ -977,9 +977,13 @@ max-width:900px;
 }
 
 .world-particle{
+    position:absolute;
+    z-index:2;
+    opacity:1;
     animation: worldParticle 5s ease-in-out infinite,
                particleFloat 5s ease-in-out infinite;
 }
+
 
 .particle-1{
     animation-delay:0s;
