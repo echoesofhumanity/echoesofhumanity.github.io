@@ -784,15 +784,15 @@ max-width:900px;
 
 .world-map{
     position:absolute;
-    width:min(900px,115%);
+    width:min(1050px,125%);
     left:50%;
     top:42%;
     transform:translate(-50%,-50%);
-    opacity:.12;
+    opacity:.28;
     filter:
         brightness(1.8)
-        contrast(1.15)
-        drop-shadow(0 0 18px rgba(90,190,255,.45));
+        contrast(1.2)
+        drop-shadow(0 0 22px rgba(90,190,255,.55));
     animation:worldMapFloat 12s ease-in-out infinite;
 }
 
@@ -800,8 +800,9 @@ max-width:900px;
     display:block;
     width:100%;
     height:auto;
-    opacity:.9;
+    opacity:1;
     mix-blend-mode:screen;
+}
 }
 
 /* LIGHT PARTICLES */
