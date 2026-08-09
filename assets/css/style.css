@@ -782,33 +782,7 @@ max-width:900px;
     animation:worldGlow 8s ease-in-out infinite;
 }
 
-/* ==============================
-   HERO WORLD — VISIBLE GLOBAL MAP
-   ============================== */
 
-.world-map{
-    position:absolute;
-    width:92%;
-    left:50%;
-    top:52%;
-    transform:translate(-50%,-50%);
-    z-index:2;
-    opacity:.35;
-    pointer-events:none;
-    filter:invert(1);
-    animation:none;
-}
-
-.world-map img{
-    display:block;
-    width:100%;
-    height:auto;
-    opacity:1;
-    filter:
-        brightness(1.4)
-        contrast(1.25);
-    mix-blend-mode:normal;
-}
 
 /* LIGHT PARTICLES */
 
