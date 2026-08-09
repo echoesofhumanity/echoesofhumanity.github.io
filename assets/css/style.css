@@ -811,8 +811,7 @@ max-width:900px;
     filter:
         brightness(1.4)
         contrast(1.25);
-    mix-blend-mode:screen;
-}
+    mix-blend-mode:normal;
 }
 
 /* LIGHT PARTICLES */
