@@ -788,19 +788,15 @@ max-width:900px;
 
 .world-map{
     position:absolute;
-    width:min(1050px,125%);
+    width:92%;
     left:50%;
-    top:42%;
+    top:52%;
     transform:translate(-50%,-50%);
-    z-index:1;
-    opacity:.55;
+    z-index:2;
+    opacity:.35;
     pointer-events:none;
-    filter:
-        brightness(2.2)
-        contrast(1.35)
-        drop-shadow(0 0 18px rgba(90,190,255,.75))
-        drop-shadow(0 0 45px rgba(70,150,255,.35));
-    animation:worldMapFloat 12s ease-in-out infinite;
+    filter:invert(1);
+    animation:none;
 }
 
 .world-map img{
