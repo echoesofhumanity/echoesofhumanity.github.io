@@ -948,7 +948,98 @@ max-width:900px;
         height:5px;
     }
 }
+/* =========================================
+   HERO ATMOSPHERIC ANIMATION
+   ========================================= */
 
+.world-map img{
+    animation: worldBreath 8s ease-in-out infinite;
+    transform-origin:center;
+}
+
+.world-glow{
+    animation: glowPulse 6s ease-in-out infinite;
+}
+
+.hero-orb{
+    animation: orbPulse 7s ease-in-out infinite;
+}
+
+.world-particle{
+    animation: particleFloat 5s ease-in-out infinite;
+}
+
+.particle-1{
+    animation-delay:0s;
+}
+
+.particle-2{
+    animation-delay:1s;
+}
+
+.particle-3{
+    animation-delay:2s;
+}
+
+.particle-4{
+    animation-delay:3s;
+}
+
+.particle-5{
+    animation-delay:4s;
+}
+
+.particle-6{
+    animation-delay:5s;
+}
+
+@keyframes worldBreath{
+    0%,100%{
+        opacity:.10;
+        transform:scale(1);
+    }
+
+    50%{
+        opacity:.17;
+        transform:scale(1.025);
+    }
+}
+
+@keyframes glowPulse{
+    0%,100%{
+        opacity:.35;
+        transform:scale(1);
+    }
+
+    50%{
+        opacity:.65;
+        transform:scale(1.08);
+    }
+}
+
+@keyframes orbPulse{
+    0%,100%{
+        opacity:.18;
+        transform:scale(1);
+    }
+
+    50%{
+        opacity:.35;
+        transform:scale(1.06);
+    }
+}
+
+@keyframes particleFloat{
+    0%,100%{
+        opacity:.25;
+        transform:translateY(0) scale(.8);
+    }
+
+    50%{
+        opacity:1;
+        transform:translateY(-18px) scale(1.15);
+    }
+}
 /* REDUCE MOTION ACCESSIBILITY */
 
 @media (prefers-reduced-motion:reduce){
