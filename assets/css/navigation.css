@@ -218,3 +218,43 @@ header.scrolled{
     }
 
 }
+/* =====================================================
+   RESPONSIVE NAVIGATION FINAL FIX
+   ===================================================== */
+
+/* Desktop */
+.menu-toggle{
+    display:none;
+}
+
+nav{
+    display:flex;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:flex;
+    }
+
+    nav{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        padding:12px 0 20px;
+        gap:4px;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        width:100%;
+        padding:12px 10px;
+        text-align:center;
+        border-radius:8px;
+    }
+
+}
