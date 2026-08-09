@@ -782,17 +782,24 @@ max-width:900px;
     animation:worldGlow 8s ease-in-out infinite;
 }
 
+/* ==============================
+   HERO WORLD — VISIBLE GLOBAL MAP
+   ============================== */
+
 .world-map{
     position:absolute;
     width:min(1050px,125%);
     left:50%;
     top:42%;
     transform:translate(-50%,-50%);
-    opacity:.28;
+    z-index:1;
+    opacity:.55;
+    pointer-events:none;
     filter:
-        brightness(1.8)
-        contrast(1.2)
-        drop-shadow(0 0 22px rgba(90,190,255,.55));
+        brightness(2.2)
+        contrast(1.35)
+        drop-shadow(0 0 18px rgba(90,190,255,.75))
+        drop-shadow(0 0 45px rgba(70,150,255,.35));
     animation:worldMapFloat 12s ease-in-out infinite;
 }
 
@@ -801,6 +808,9 @@ max-width:900px;
     width:100%;
     height:auto;
     opacity:1;
+    filter:
+        brightness(1.4)
+        contrast(1.25);
     mix-blend-mode:screen;
 }
 }
@@ -967,7 +977,8 @@ max-width:900px;
 }
 
 .world-particle{
-    animation: particleFloat 5s ease-in-out infinite;
+    animation: worldParticle 5s ease-in-out infinite,
+               particleFloat 5s ease-in-out infinite;
 }
 
 .particle-1{
