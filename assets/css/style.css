@@ -736,7 +736,7 @@ max-width:900px;
 .hero-world{
     position:absolute;
     inset:0;
-    z-index:0;
+    z-index:2;
     pointer-events:none;
     overflow:hidden;
 }
