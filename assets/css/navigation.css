@@ -258,3 +258,30 @@ nav{
     }
 
 }
+/* =====================================================
+   MOBILE MENU — FULL HEIGHT + SCROLL
+   ===================================================== */
+
+@media (max-width:768px){
+
+    nav.active{
+        display:flex;
+        max-height:calc(100vh - 150px);
+        overflow-y:auto;
+        overflow-x:hidden;
+        padding:12px 10px 24px;
+        box-sizing:border-box;
+        scrollbar-width:none;
+    }
+
+    nav.active::-webkit-scrollbar{
+        display:none;
+    }
+
+    nav.active a{
+        flex-shrink:0;
+        padding:12px 10px;
+        line-height:1.2;
+    }
+
+}
