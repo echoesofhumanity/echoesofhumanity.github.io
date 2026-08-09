@@ -224,7 +224,7 @@ opacity:.75;
     top:52%;
     transform:translate(-50%,-50%);
     z-index:2;
-    opacity:.35;
+    opacity:.1;
     pointer-events:none;
     filter:invert(1);
 }
